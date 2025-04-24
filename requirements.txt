@@ -5,3 +5,4 @@ ta
 gunicorn
 beautifulsoup4
 lxml
+schedule

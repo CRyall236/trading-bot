@@ -1,3 +1,32 @@
-charts/
-visualizations/
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 trading-bot-env/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and OS-specific files
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Plotly & Kaleido cache folders
+.kaleido/
+plotly-plotly-dash/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Compiled files
+*.so
+*.dylib
+*.pyd

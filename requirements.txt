@@ -1,0 +1,7 @@
+Flask
+yfinance
+pandas
+ta
+gunicorn
+beautifulsoup4
+lxml

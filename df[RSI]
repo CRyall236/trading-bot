@@ -1,0 +1,5 @@
+if not df['RSI'].dropna().empty:
+    latest_rsi = df['RSI'].dropna().iloc[-1]
+else:
+    print("RSI column is empty after dropping NaNs.")
+    # Handle this case accordingly

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: trading-bot
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
